@@ -14,7 +14,7 @@ import managers.FileReaderManager;
 		glue= {"stepDefinitions"},
 		dryRun=false,
 		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/fingerTipReports.html"},
-		tags= {"@login"}, monochrome = false
+		tags= {"@fingerTipDecisions,@fingerTipLogin"}, monochrome = false
 		
 		)
  
